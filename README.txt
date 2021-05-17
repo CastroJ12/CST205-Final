@@ -18,6 +18,6 @@ Link to the GitHub repository:
 https://github.com/CastroJ12/CST205-Final.git
 
 If we had more time we would implement a home page to connect all the sections
-To be able to have am easier access to each section. Another addition we would have done would be
+To be able to have an easier access to each section. Another addition we would have done would be
 To implement music as the person viewed each image.
 
