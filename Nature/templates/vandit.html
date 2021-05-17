@@ -1,0 +1,58 @@
+{{bootstrap.load_css()}}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+</head>
+<style>
+    body{
+        background-color: rgb(144, 238, 144);
+    }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 66px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1 {
+  text-align: center;
+}
+</style>
+<body>
+   
+    <h1>Nature</h1>
+<div class="row"> 
+    <div class="column">
+<p>
+        <a href="{{url_for('pic', imid=im1['id'])}}">{{im1['title']}}</a>
+    </p>
+    <a href="{{url_for('pic', imid=im1['id'])}}">
+        <img src="/static/images/{{im1['id']}}.jpg" width="500" height="400" alt="firstim">
+    </a>
+</div>
+<div class="column">
+	<p>
+        <a href="{{url_for('pic', imid=im2['id'])}}">{{im2['title']}}</a>
+    </p>
+    <a href="{{url_for('pic', imid=im2['id'])}}">
+        <img src="/static/images/{{im2['id']}}.jpg" width="500" height="400" alt="secondim">
+    </a>   
+</div>
+<div class="column">
+	<p>
+        <a href="{{url_for('pic', imid=im3['id'])}}">{{im3['title']}}</a>
+    </p>
+    <a href="{{url_for('pic', imid=im3['id'])}}">
+        <img src="/static/images/{{im3['id']}}.jpg" width="500" height="400" alt="secondim">
+    </a>
+   </div>
+</div>
+</body>
+</html>
