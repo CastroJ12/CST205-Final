@@ -21,3 +21,6 @@ If we had more time we would implement a home page to connect all the sections
 To be able to have an easier access to each section. Another addition we would have done would be
 To implement music as the person viewed each image.
 
+As a last update we were able to to create a homepage that demonstrates how 
+our homepage for our end product would be. Moreover, to run this prototype you would need to 
+head over to the Pre-release branch and run the HP.py file following the instuctions above.
